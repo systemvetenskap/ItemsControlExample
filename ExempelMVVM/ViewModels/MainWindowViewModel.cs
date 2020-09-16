@@ -7,7 +7,7 @@ namespace ExempelMVVM
 {
    public class MainWindowViewModel
     {
-        public ObservableCollection<PegViewModel> Pegs { get; set; } = new ObservableCollection<PegViewModel>();
+        public ObservableCollection<PegViewModel> Pegs { get; set; }
 
         public MainWindowViewModel()
         {

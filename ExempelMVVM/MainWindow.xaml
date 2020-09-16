@@ -20,7 +20,7 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-       <ItemsControl ItemsSource="{Binding Pegs}" Grid.Row="1" Grid.Column="1">
+        <ItemsControl ItemsSource="{Binding Pegs}" Grid.Row="1" Grid.Column="1">
             <ItemsControl.ItemsPanel>
                 <ItemsPanelTemplate>
                     <UniformGrid Columns="4"/>
